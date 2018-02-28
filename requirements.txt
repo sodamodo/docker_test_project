@@ -1,0 +1,6 @@
+bs4==0.0.1
+chardet==2.3.0
+Django==1.10.2
+lxml==3.6.4
+requests==2.12.4
+gunicorn

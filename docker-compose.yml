@@ -1,0 +1,15 @@
+verizon: '2.7'
+
+services:
+  db:
+    image: postgres
+  web:
+    build: .
+    command: python2.7 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:    
+      - "8000: 8000"
+    depeneds_on:
+      - db       
+
