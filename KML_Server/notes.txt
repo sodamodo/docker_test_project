@@ -1,0 +1,33 @@
+Whatsup with namedtuple?
+and zipping
+and unpackking?
+wtf is zip, appearantly its an essential part of programming?
+
+The above is trivial
+
+I need to get it on the server, asap. Ideally not just on the dev server.
+I also need really look into styling this thing
+Get bigger or smaller pinss maybe
+Definitely the water sheds depending on the how they line up
+
+For periodic updates.....goood question....original idea maybe best
+Maybe have it sleep just before calling the API?
+
+Gotta really hit the styling hard
+Banish unicode U
+
+How do I read KMZ --- whats the deal with them?
+
+
+<Camera>
+  <longitude>-121</longitude>
+  <latitude>37</latitude>
+  <altitude>2000</altitude>
+  <altitudeMode>clampToGround</altitudeMode>
+</Camera>
+
+
+IT WORKS
+
+todo
+---

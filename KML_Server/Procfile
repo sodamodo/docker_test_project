@@ -1,0 +1,1 @@
+web: gunicorn KML_Server.wsgi --settings=KML_Server.settings

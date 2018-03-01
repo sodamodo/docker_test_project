@@ -1,15 +1,11 @@
-verizon: '2.7'
+version: '2'
 
 services:
-  db:
-    image: postgres
   web:
     build: .
-    command: python2.7 manage.py runserver 0.0.0.0:8000
+    command: python2.7 KML_Server/manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:    
-      - "8000: 8000"
-    depeneds_on:
-      - db       
+      - "80:80"     
 
